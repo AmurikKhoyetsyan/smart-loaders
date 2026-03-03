@@ -1,23 +1,23 @@
 ## Smart Loaders
 
-## [demo page](https://amurkhoyetsyan.github.io/smart-loaders/)
+## [demo page](https://amurikkhoyetsyan.github.io/smart-loaders/)
 
 ### Loaders JS
 
-<img src="https://raw.githubusercontent.com/AmurKhoyetsyan/react-js-loader/master/img/loader.gif" alt="loader" />
+<img src="https://raw.githubusercontent.com/AmurikKhoyetsyan/react-js-loader/master/img/loader.gif" alt="loader" />
 
-|Attributes     | Types    |
-| ------------- | -------- |
-| data-loader   | String   |
-| loader-color  | String   |
-| title         | String   |
-| title-color   | String   |
-| size          | Integer  |
+| Attributes   | Types   |
+|--------------|---------|
+| data-loader  | String  |
+| loader-color | String  |
+| title        | String  |
+| title-color  | String  |
+| size         | Integer |
 
 <br/>
 
 | Types [data-loader] | *.js                                             | *.min.js                                                 |
-| ------------------- | ------------------------------------------------ |--------------------------------------------------------- |
+|---------------------|--------------------------------------------------|----------------------------------------------------------|
 | box-rotate-x        | [box-rotate-x.js](./src/box-rotate-x.js)         | [box-rotate-x.min.js](./src/box-rotate-x.min.js)         |
 | box-rotate-y        | [box-rotate-y.js](./src/box-rotate-y.js)         | [box-rotate-y.min.js](./src/box-rotate-y.min.js)         |
 | box-rotate-z        | [box-rotate-z.js](./src/box-rotate-z.js)         | [box-rotate-z.min.js](./src/box-rotate-z.min.js)         |
@@ -39,25 +39,23 @@
 
 <br />
 
-| Types [loader-color] | Types    | Value Example                   |
-| -------------------- | -------- | ------------------------------- |
-| rgb                  | String   | rgb(0, 0, 0) or rgb(0%, 0%, 0%) |
-| hex                  | String   | #000000 or #000                 |
-| hsl                  | String   | hsl(0deg 0% 0%)                 |
-| name                 | String   | black                           |
-
+| Types [loader-color] | Types  | Value Example                   |
+|----------------------|--------|---------------------------------|
+| rgb                  | String | rgb(0, 0, 0) or rgb(0%, 0%, 0%) |
+| hex                  | String | #000000 or #000                 |
+| hsl                  | String | hsl(0deg 0% 0%)                 |
+| name                 | String | black                           |
 
 <br/>
 
 concat js file
 
     <script type="text/javascript" src="js/loader.js"></script>
-    
+
 or
 
     <script type="text/javascript" src="js/loader.min.js"></script>
-    
-    
+
 ### Example for pure js
 
     <html lang="en">
